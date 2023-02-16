@@ -1,7 +1,15 @@
 package com.korsuk;
 
+import com.korsuk.oop.builder.Person;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Person person = new Person.PersonBuilder()
+                .firstName("Bill")
+                .lastName("Johnson")
+                .age(45)
+                .build();
+        System.out.println(person);
     }
 }
