@@ -1,4 +1,4 @@
-package com.korsuk;
+package com.korsuk.oop.builder;
 
 import com.korsuk.oop.builder.Person;
 
